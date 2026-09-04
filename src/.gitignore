@@ -1,11 +1,9 @@
-# File binary & executable
 *.exe
 *.dll
 
-# Folder build / installer
+
 Inno Setup 6/
 SFML/
 
-# File temporary atau log jika ada
 *.o
 *.obj
