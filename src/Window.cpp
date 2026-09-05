@@ -47,8 +47,7 @@ void GameWindow::handleResize(unsigned int newWidth, unsigned int newHeight) {
       sf::View(sf::FloatRect({0.f, 0.f}, {static_cast<float>(virtualSize.x),
                                           static_cast<float>(virtualSize.y)}));
   gameView.setViewport(viewport);
-
-  // 2. UI View (Native HD pixel-perfect 1:1)
+  
   uiView = sf::View(sf::FloatRect({0.f, 0.f}, {static_cast<float>(newWidth),
                                                static_cast<float>(newHeight)}));
 }
