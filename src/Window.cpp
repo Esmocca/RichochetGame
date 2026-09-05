@@ -25,7 +25,6 @@ bool GameWindow::isOpen() const { return window.isOpen(); }
 std::optional<sf::Event> GameWindow::pollEvent() { return window.pollEvent(); }
 
 void GameWindow::handleResize(unsigned int newWidth, unsigned int newHeight) {
-  // 1. Game View (Virtual 320x240 dengan Aspect Ratio Preserved)
   float targetAspectRatio =
       static_cast<float>(virtualSize.x) / static_cast<float>(virtualSize.y);
   float windowAspectRatio =
