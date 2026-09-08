@@ -1,5 +1,8 @@
 Ricochet Game
 
+<img width="1276" height="721" alt="image" src="https://github.com/user-attachments/assets/ffe265ff-d74a-4352-a458-543b5c60cdc1" />
+
+
 This implementation plays a 2D physics-based arcade and puzzle game where you shoot projectiles that bounce off surfaces to destroy targets. You must calculate reflection angles, timing, and trajectory to clear each level using a limited number of shots.
 
 Rules
