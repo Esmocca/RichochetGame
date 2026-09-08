@@ -39,9 +39,3 @@ Installation
 
 3. Run the game:
    ./RicochetGame
-
-Controls
-- Mouse Movement: Aim
-- Left Mouse Button: Shoot
-- R Key: Reset current level
-- Esc / P Key: Pause game
